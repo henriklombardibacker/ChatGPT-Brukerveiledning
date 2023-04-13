@@ -4,5 +4,6 @@ describe('The specific word test', () => {
     cy.contains('.velkommen', 'ChatGPT')
     cy.contains('.introduksjon', 'Open AI')
     cy.contains('.steg-1', 'ctrl + t')
+    cy.contains('.steg-1', 'Mac')
   })
 })
