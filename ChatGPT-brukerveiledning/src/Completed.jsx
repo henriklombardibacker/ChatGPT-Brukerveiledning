@@ -15,9 +15,9 @@ export default function Completed({}) {
     return(
         <div>
             <p className="text-black-800 font-bold p-10">{completed}</p>
-            <button onClick={handleCompleted} className="text-green-500 m-5">✓</button>
-            <button onClick={handleNotCompleted} className="text-red-500 m-5">✕</button>
+            <button onClick={handleCompleted} className="fullført text-green-500 m-5">✓</button>
+            <button onClick={handleNotCompleted} className="ikke-fullført text-red-500 m-5">✕</button>
         </div>
-    )
-}
+    );
+};
 
